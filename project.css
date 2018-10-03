@@ -1,0 +1,16 @@
+body{
+	background-image:url("https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-327871.jpg");
+	background-repeat: no-repeat 
+}
+h1,
+p{
+	color: white;
+}
+
+.title {
+	text-align: center;
+	font-size: 70px;
+}
+.para{
+	text-align: center;
+}
