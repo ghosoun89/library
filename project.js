@@ -1,7 +1,8 @@
-var books =[{
-	finction:{book1:"harry potter",
-book2:"The Silence of the Girls",
-},
-comics:{book1:"Batman by Sean Murphy Batman: White Knight ",book2:"I hate fairyland"},
-
+function main(){
+  $(".books").hide();
+  $(".books-button").on("click", function(){
+		$(this).toggleClass("active");
+    $(this).next().slideToggle(400);
+  })
 }
+$(document).ready(main);
